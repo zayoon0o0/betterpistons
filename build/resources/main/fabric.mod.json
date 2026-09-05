@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "betterpistons",
+	"version": "1.0.0",
+	"name": "betterpistons",
+	"description": "make pistons.. better?",
+	"authors": [
+		"zayoon0o0"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "GNU GPLv3",
+	"icon": "assets/betterpistons/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.myapps.Betterpistons"
+		]
+	},
+	"mixins": [
+		"betterpistons.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": ">=26.1.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
