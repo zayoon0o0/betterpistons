@@ -11,6 +11,6 @@ public class ExampleMixin
 	@ModifyConstant(method = "addBlockLine", constant = @Constant(intValue = PistonStructureResolver.MAX_PUSH_DEPTH), expect = 3)
 	private int pushLimit(int original)
 	{
-		return Integer.MAX_VALUE;
+		return Integer.MAX_VALUE; // hm.
 	}
 }
