@@ -29,7 +29,6 @@ public class Betterpistons implements ModInitializer {
 		LOGGER.warn("or it will be gone.");
 		LOGGER.info("bye bye fabric world.");
 		LOGGER.info("the mixin shall run.");
-		LOGGER.error("null");
 	}
 
 	public static Identifier id(String path) {
