@@ -5,12 +5,13 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.Constant;
 import org.spongepowered.asm.mixin.injection.ModifyConstant;
 
-@Mixin(value = PistonStructureResolver.class, priority = 2000) // its fineeeee
+@Mixin(value = PistonStructureResolver.class, priority = 700)
 public class ExampleMixin
 {
 	@ModifyConstant(method = "addBlockLine", constant = @Constant(intValue = PistonStructureResolver.MAX_PUSH_DEPTH), expect = 3)
 	private int pushLimit(int original)
 	{
-		return Integer.MAX_VALUE; // hm.
+		return Integer.MAX_VALUE; // yes.
 	}
 }
+

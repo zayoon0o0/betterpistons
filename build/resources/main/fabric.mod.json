@@ -8,12 +8,12 @@
 		"zayoon0o0"
 	],
 	"contact": {
-		"homepage": "",
-		"sources": ""
+		"homepage": "https://modrinth.com/mod/betterpistons",
+		"sources": "https://github.com/zayoon0o0/betterpistons"
 	},
 	"license": "GNU GPLv3",
 	"icon": "assets/betterpistons/icon.png",
-	"environment": "server",
+	"environment": "*",
 	"entrypoints": {
 		"main": [
 			"com.myapps.Betterpistons"
@@ -24,7 +24,7 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.19.5",
-		"minecraft": ">=26.1.2",
+		"minecraft": ">=26.2",
 		"java": ">=25",
 		"fabric-api": "*"
 	}
